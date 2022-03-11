@@ -173,3 +173,22 @@ footer{
 input[type="text"], textarea {
     background-color: var(--main_surface);
 }
+
+@media screen and (max-width: 800px) {
+    .side-nav {
+      width: 100%;
+      height: auto;
+    }
+
+    .side-nav a {float: left;}
+    .flex-area {
+        padding-left: 0px; 
+        padding-top: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flex-area {
+      margin: 1em 2em;
+    }
+}
